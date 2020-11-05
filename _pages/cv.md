@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Rodrigo Rampazo Amadeu  
-Ph.D. Student
+Ph.D. Student  
 Graduate Research Assistant  
 Blueberry Breeding & Genomics Lab  
 Horticultural Sciences Department  
