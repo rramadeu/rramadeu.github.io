@@ -8,11 +8,10 @@ tags:
 ---
 
 
-Common cases when the G matrix determinant is zero
+Common cases when the G matrix doesn't invert
 
 Here, I show common genetic reasons where can lead to genomic
-relationship matrix determinant equal to 0. They are commonly based on population structure or repeated information. The cases are not always true, but they can represent why you have a strong linear dependence in
-your G matrix (Van Raden 2008), and, therefore, a determinant equal 0 with not unique inverse for the matrix. After identifying the reason, you can take action in order to manage the data before building the G matrix.
+relationship matrix with problems in the inverstion (i.e., determinant equal to 0). They are commonly based on population structure or repeated (or highly similar) information. The cases are not always true, but they can represent why you have a strong linear dependence in your G matrix (Van Raden 2008), and, therefore, a determinant equal 0 with not unique inverse for the matrix. After identifying the reason, you can take action in order to manage the data before building the G matrix.
 
 
 If you know any other common reason, please let me know and I can add to
@@ -125,7 +124,69 @@ G1[1:4,1:4] #off-diagonal values close to 1
     ## Manistee 0.15363950 0.15363950 0.9382326 0.15281292
     ## MSS297-3 0.09283224 0.09283224 0.1528129 1.03410691
 
-2\) More individuals than markers
+## 2\) Highly related individuals
+
+I repeat the first line in `snp.sol` and add some noise to it, (as a
+fullsib or something highly related). Often you can have an “inverse”
+but it has numeric problems like here:
+
+``` r
+snp.high.rel <- snp.sol[1,]
+snp.high.rel <- snp.high.rel + sample(c(-1,0,1),3895,replace=TRUE)
+snp.high.rel <- ifelse(snp.high.rel<0,0,snp.high.rel)
+snp.high.rel <- ifelse(snp.high.rel>4,4,snp.high.rel)
+snp.sol1 <- rbind(snp.high.rel,snp.sol)
+G1 <- Gmatrix(snp.sol1, ploidy=4)
+```
+
+    ## Initial data: 
+    ##  Number of Individuals: 572 
+    ##  Number of Markers: 3895 
+    ## 
+    ## Missing data check: 
+    ##  Total SNPs: 3895 
+    ##   0 SNPs dropped due to missing data threshold of 1 
+    ##  Total of: 3895  SNPs 
+    ## MAF check: 
+    ##  No SNPs with MAF below 0 
+    ## Monomorphic check: 
+    ##  No monomorphic SNPs 
+    ## Summary check: 
+    ##  Initial:  3895 SNPs 
+    ##  Final:  3895  SNPs ( 0  SNPs removed) 
+    ##  
+    ## Completed! Time = 2.199  seconds
+
+``` r
+G1[1:4,1:4] #high relationship
+```
+
+    ##              snp.high.rel   MSH228-6  Manistee   MSS297-3
+    ## snp.high.rel   1.51519434 0.86777224 0.1150521 0.06966883
+    ## MSH228-6       0.86777224 0.99994213 0.1537969 0.09301776
+    ## Manistee       0.11505209 0.15379691 0.9375168 0.15278083
+    ## MSS297-3       0.06966883 0.09301776 0.1527808 1.03325055
+
+``` r
+det(G1) #you can get a determinant
+```
+
+    ## [1] 2.651697e-288
+
+``` r
+G1_Inv <- solve(G1) #you can get a invert
+G1_Inv[1:4,1:5] #but it has numerical issues
+```
+
+    ##              snp.high.rel    MSH228-6    Manistee    MSS297-3       NY156
+    ## snp.high.rel  27313010512 27313010509 27313010511 27313010511 27313010511
+    ## MSH228-6      27313010509 27313010521 27313010510 27313010510 27313010511
+    ## Manistee      27313010511 27313010510 27313010521 27313010511 27313010511
+    ## MSS297-3      27313010511 27313010510 27313010511 27313010515 27313010511
+    
+
+
+3\) More individuals than markers
 ----------------------------
 
 I subset the `snp.sol` letting it with just 500 markers and all the 571
@@ -164,7 +225,7 @@ det(G2)
 #G2_Inv <- solve(G2) #error!
 ```
 
-3\) Population Structure
+4\) Population Structure
 ----------------------------
 
 `wheat` data set has a population structure with 2 subpopulations.
@@ -212,7 +273,7 @@ autoplot(PCs)
 
 ![](https://rramadeu.github.io/images/zero_det_Gmatrix/unnamed-chunk-4-1.png)
 
-4\) Population Structure at the family level
+5\) Population structure at the family level
 ----------------------------
 
 `snp.pine` data set has a population structure at the family level (each
