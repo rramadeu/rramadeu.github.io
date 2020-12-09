@@ -7,12 +7,8 @@ tags:
   - Gmatrix
 ---
 
-
-Common cases when the G matrix doesn't invert
-
 Here, I show common genetic reasons where can lead to genomic
-relationship matrix with problems in the inverstion (i.e., determinant equal to 0). They are commonly based on population structure or repeated (or highly similar) information. The cases are not always true, but they can represent why you have a strong linear dependence in your G matrix (Van Raden 2008), and, therefore, a determinant equal 0 with not unique inverse for the matrix. After identifying the reason, you can take action in order to manage the data before building the G matrix.
-
+relationship matrix with problems in the inversion (i.e., determinant equal to 0). They are commonly based on population structure or repeated (or highly similar) information. The cases are not always true, but they can represent why you have a strong linear dependence in your G matrix (Van Raden 2008) adn a not unique inverse for the matrix. After identifying the reason, you can take action in order to manage the data before building the G matrix.
 
 If you know any other common reason, please let me know and I can add to
 the list. :)
