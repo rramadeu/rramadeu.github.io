@@ -1,7 +1,7 @@
 ---
-title: Common cases when the G matrix determinant is zero
-date: 2019-11-27
-permalink: /posts/2019/11/Gmatrix-0Det
+title: Common cases when the G matrix doesn't invert
+date: 2020-12-09
+permalink: /posts/2020/12/Gmatrix-0Det
 tags:
   - R
   - Gmatrix
