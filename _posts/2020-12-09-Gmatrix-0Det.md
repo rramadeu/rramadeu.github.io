@@ -8,10 +8,9 @@ tags:
 ---
 
 Here, I show common genetic reasons where can lead to genomic
-relationship matrix with problems in the inversion (i.e., determinant equal to 0). They are commonly based on population structure or repeated (or highly similar) information. The cases are not always true, but they can represent why you have a strong linear dependence in your G matrix (Van Raden 2008) adn a not unique inverse for the matrix. After identifying the reason, you can take action in order to manage the data before building the G matrix.
+relationship matrix with problems in the inversion. They are commonly based on population structure or repeated (or highly similar) information. The cases are not always true, but they can represent why you have a strong linear dependence in your G matrix (Van Raden 2008) and a not unique inverse for the matrix. After identifying the reason, you can take action in order to manage the data before building the G matrix.
 
-If you know any other common reason, please let me know and I can add to
-the list. :)
+If you know any other common reason, please let me know and I can add it to the list. :)
 
 Data used are real and from freely available data sets from `BGLR` R
 package and `AGHmatrix`.
@@ -27,8 +26,7 @@ library(ggfortify) #for PCAs
 G matrix with determinant higher than 0
 ----------------------------
 
-An example of an invertable G matrix, the data set has characteristics
-as no repeated individuals, no apparent population structure, and much
+An example of an invertable G matrix, the data set has no repeated individuals, no apparent population structure, and way
 more markers than individuals.
 
 ``` r
@@ -123,7 +121,7 @@ G1[1:4,1:4] #off-diagonal values close to 1
 ## 2\) Highly related individuals
 
 I repeat the first line in `snp.sol` and add some noise to it, (as a
-fullsib or something highly related). Often you can have an “inverse”
+fullsib or some highly related pair of individuals). Often you can have an “inverse”
 but it has numeric problems like here:
 
 ``` r
