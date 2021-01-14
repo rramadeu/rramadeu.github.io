@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+All of them are R packages that does statistical-genetics analysis. They were initially developed to assist geneticists and/or breeders.
+
 **[AGHmatrix](https://cran.r-project.org/package=AGHmatrix)**, author, compute relationship matrices for diploid and autopolyploid species
 
 **[fullsibQT](https://www.github.com/augusto-garcia/fullsibQTL)**, co-author, QTL mapping in outcrossing species using composite interval mapping
@@ -18,4 +20,3 @@ redirect_from:
 **[onemap](https://cran.r-project.org/package=onemap)**, contributor, build genetic maps in experimental crosses
 
 **[onemap2pop](https://www.github.com/augusto-garcia/onemap2pop)**, author, onemap extension to build multi-family genetic maps in outcrossing species
-
