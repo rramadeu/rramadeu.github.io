@@ -15,8 +15,12 @@ main:
   #- title: "Portfolio"
   #  url: /portfolio/
     
-  - title: "CV"
-    url: /cv/
+  - title: "Software"
+    url: /software/
+    
+  - title: "Resume"
+    url: /resume/
+    
     
   #- title: "Guide"
   #  url: /markdown/
