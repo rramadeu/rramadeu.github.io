@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-All of them are R packages that does statistical-genetics analysis. They were initially developed to assist geneticists and/or breeders.
+All of the listed tools are related to do statistical-genetics analysis to assist geneticists and/or breeders.
+
+*R packages*:
 
 **[AGHmatrix](https://cran.r-project.org/package=AGHmatrix)**, author, compute relationship matrices for diploid and autopolyploid species
 
@@ -20,3 +22,9 @@ All of them are R packages that does statistical-genetics analysis. They were in
 **[onemap](https://cran.r-project.org/package=onemap)**, contributor, build genetic maps in bi-parental experimental crosses
 
 **[onemap2pop](https://www.github.com/augusto-garcia/onemap2pop)**, author, onemap extension to build multi-family genetic maps in outcrossing species
+
+**[PedigreeSimR](https://github.com/rramadeu/PedigreeSimR/tree/master/R)**, author, wrap-up of *[PedigreeSim](https://www.wur.nl/en/show/Software-PedigreeSim.htm)* to simulate populations of classic breeding mating designs
+
+*Apps*:
+
+**[Plot Genealogy](https://rramadeu.shinyapps.io/PlotGenealogy/)**, author, app to easy plot genealogy (pedigree) from a given individual based on a given pedigree file
