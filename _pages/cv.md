@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
-permalink: /cv/
+title: "Resume"
+permalink: /resume/
 author_profile: true
 redirect_from:
   - /resume
@@ -17,4 +17,4 @@ Horticultural Sciences Department
 University of Florida  
 Gainesville, FL
 
-My CV **[here](https://github.com/rramadeu/cv/raw/master/CVAmadeu.pdf).**
+My resume **[here](https://github.com/rramadeu/cv/raw/master/CVAmadeu.pdf).**
