@@ -13,7 +13,7 @@ redirect_from:
 
 [fullsibQT](https://www.github.com/augusto-garcia/fullsibQTL), co-author, QTL mapping in outcrossing species using composite interval mapping
 
-[diaQTL](https://www.github.com/jendelman/diaQTL), co-author, QTL mapping in multiparent and autopolyploid populations, \href{https://www.github.com/jendelman/diaQTL}{link}
+[diaQTL](https://www.github.com/jendelman/diaQTL), co-author, QTL mapping in multiparent and autopolyploid populations
 
 [onemap](https://cran.r-project.org/package=onemap), contributor, build genetic maps in experimental crosses
 
