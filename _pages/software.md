@@ -17,7 +17,7 @@ All of the listed tools are related to do statistical-genetics analysis to assis
 
 **[diaQTL](https://www.github.com/jendelman/diaQTL)**, co-author, QTL mapping in multiparent and autopolyploid populations
 
-**[PedigreeSimR](https://github.com/rramadeu/PedigreeSimR)**, author, wrap-up of *[PedigreeSim](https://www.wur.nl/en/show/Software-PedigreeSim.htm)* to simulate populations of classic breeding mating designs
+**[PedigreeSimR](https://github.com/rramadeu/PedigreeSimR)**, author, wrapper of *[PedigreeSim](https://www.wur.nl/en/show/Software-PedigreeSim.htm)* to simulate populations of classic breeding mating designs
 
 **[fullsibQTL](https://www.github.com/augusto-garcia/fullsibQTL)**, co-author, QTL mapping in outcrossing species using composite interval mapping
 
