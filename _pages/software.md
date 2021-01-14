@@ -27,4 +27,4 @@ All of the listed tools are related to do statistical-genetics analysis to assis
 
 *Apps*:
 
-**[Plot Genealogy](https://rramadeu.shinyapps.io/PlotGenealogy/)**, author, app to easy plot genealogy (pedigree) from a given individual based on a given pedigree file
+**[Plot Genealogy](https://rramadeu.shinyapps.io/PlotGenealogy/)**, author, app to easy plot genealogy (pedigree) of a given genotype based on a given pedigree file
