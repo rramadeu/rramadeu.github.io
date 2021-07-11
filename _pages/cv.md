@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-Rodrigo Rampazo Amadeu  
-Ph.D. Student  
+Rodrigo Rampazo Amadeu
 Graduate Research Assistant  
+Ph.D. Candidate  
 Blueberry Breeding & Genomics Lab  
 Horticultural Sciences Department  
 University of Florida  
