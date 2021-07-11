@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-  Ph. D. student in Horticultural Sciences (Breeding & Genetics) w/ focus on autopolyploidy & plant genetics and breeding. Primarly, work on the development and application of statistical-genetics methods to aid plant breeding. He currently is a Graduate Research Assistant in the [Blueberry Breeding & Genomics Lab](https://www.blueberrybreeding.com) under supervision of Dr. Patricio Munoz.
+ Graduate Research Assistant in the [Blueberry Breeding & Genomics Lab](https://www.blueberrybreeding.com). He is also a Ph. D. candidate in Horticultural Sciences (Breeding & Genetics) w/ focus on autopolyploidy & plant genetics and breeding. Primarly, work on the development and application of statistical-genetics methods to aid plant breeding.
  
  Interested in R, plant breeding, statistical-genetics, and polyploidy.
  
