@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Rodrigo Rampazo Amadeu
+Rodrigo Rampazo Amadeu  
 Quantitative Genetics Scientist  
 Bayer Crop Science, uSA  
 
