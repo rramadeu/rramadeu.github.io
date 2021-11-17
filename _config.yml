@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Rodrigo R. Amadeu"
 title_separator          : "-"
 name                     : &name "Rodrigo Rampazo Amadeu"
-description              : &description "PhD student at University of Florida"
+description              : &description "Quantitative Genetics"
 url                      : https://rramadeu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rramadeu/rramadeu.github.io"
@@ -84,8 +84,8 @@ social:
 author:
   name             : "Rodrigo R. Amadeu"
   avatar           : "IMG_2329.jpg"
-  bio              : "Plant Genomics & Breeding PhD student"
-  location         : "University of Florida"
+  bio              : "Quantitative Genetics"
+  location         : 
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=4Drwp_EAAAAJ&hl=en&oi=ao"
   email            :
