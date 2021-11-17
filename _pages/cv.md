@@ -10,8 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Rodrigo Rampazo Amadeu
-Quantitative Genetics Scientist
-Bayer Crop Science
-Chesterfield, MO
+Quantitative Genetics Scientist  
+Bayer Crop Science, uSA  
 
 My resume **[here](https://github.com/rramadeu/cv/raw/master/CVAmadeu.pdf).**
