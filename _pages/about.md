@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
- Graduate Research Assistant in the [Blueberry Breeding & Genomics Lab](https://www.blueberrybreeding.com). He is also a Ph. D. candidate in Horticultural Sciences (Breeding & Genetics) w/ focus on autopolyploidy & plant genetics and breeding. Primarly, work on the development and application of statistical-genetics methods to aid plant breeding.
+ Quantitative Genetics Scientist at Bayer Crop Science. He did a Ph. D. in Horticultural Sciences (Breeding & Genetics) w/ focus on autopolyploidy & plant genetics and breeding. Primarly, work on the development and application of statistical-genetics methods to aid plant breeding.
  
- Interested in R, plant breeding, statistical-genetics, and polyploidy.
+ Interested in R, plant breeding, and quantitative genetics.
  
   My CV **[here](https://github.com/rramadeu/cv/raw/master/CVAmadeu.pdf)**.
 
