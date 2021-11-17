@@ -10,11 +10,8 @@ redirect_from:
 {% include base_path %}
 
 Rodrigo Rampazo Amadeu
-Graduate Research Assistant  
-Ph.D. Candidate  
-Blueberry Breeding & Genomics Lab  
-Horticultural Sciences Department  
-University of Florida  
-Gainesville, FL
+Quantitative Genetics Scientist
+Bayer Crop Science
+Chesterfield, MO
 
 My resume **[here](https://github.com/rramadeu/cv/raw/master/CVAmadeu.pdf).**
