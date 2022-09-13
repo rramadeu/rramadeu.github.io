@@ -11,6 +11,6 @@ redirect_from:
 
 Rodrigo Rampazo Amadeu  
 Quantitative Genetics Scientist  
-Bayer Crop Science, uSA  
+Bayer Crop Science, USA  
 
 My resume **[here](https://github.com/rramadeu/cv/raw/master/CVAmadeu.pdf).**
